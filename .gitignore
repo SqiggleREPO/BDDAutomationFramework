@@ -1,0 +1,30 @@
+# Build outputs
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+
+# Test results
+**/TestResults/
+**/*.trx
+
+# Assembly info and cache files
+**/*.AssemblyInfo.cs
+**/*.cache
+
+# Debug symbols
+**/*.pdb
+
+# Reference files
+**/*.refint
+**/*.ref
+
+# Source link files
+**/*.sourcelink.json
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates 

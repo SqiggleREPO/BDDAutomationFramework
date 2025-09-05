@@ -1,21 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="39981836-e638-4de0-be56-f8d29180ecdb" name="marcc@DESKTOP-NK3B8B0 2025-09-05 12:14:21" runUser="DESKTOP-NK3B8B0\marcc" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2025-09-05T12:14:21.7450293+01:00" queuing="2025-09-05T12:14:21.7450297+01:00" start="2025-09-05T12:14:17.7130710+01:00" finish="2025-09-05T12:14:21.7599980+01:00" />
-  <TestSettings name="default" id="d71bd16c-fc4e-4e74-8bff-a79c8347f84b">
-    <Deployment runDeploymentRoot="marcc_DESKTOP-NK3B8B0_2025-09-05_12_14_21" />
+<TestRun id="885b0ff7-4cb8-43d7-b188-9557f7521ad5" name="marcc@DESKTOP-NK3B8B0 2025-09-05 12:47:29" runUser="DESKTOP-NK3B8B0\marcc" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-09-05T12:47:29.4335182+01:00" queuing="2025-09-05T12:47:29.4335186+01:00" start="2025-09-05T12:47:26.1135809+01:00" finish="2025-09-05T12:47:29.4421504+01:00" />
+  <TestSettings name="default" id="06aa5a73-e4aa-4460-9b2f-fd7b93df2380">
+    <Deployment runDeploymentRoot="marcc_DESKTOP-NK3B8B0_2025-09-05_12_47_29" />
   </TestSettings>
   <Results>
-    <UnitTestResult executionId="c71df474-3ad3-44f8-b604-068a122871e6" testId="d89c1269-6098-5808-490b-3b1dd443a13f" testName="Test_0001_TestingLoginWithValidCredentials" computerName="DESKTOP-NK3B8B0" duration="00:00:02.5827951" startTime="2025-09-05T12:14:18.6940473+01:00" endTime="2025-09-05T12:14:21.5967416+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c71df474-3ad3-44f8-b604-068a122871e6">
+    <UnitTestResult executionId="c10e2980-e73b-424c-95bb-4a1959314e9e" testId="d89c1269-6098-5808-490b-3b1dd443a13f" testName="Test_0001_TestingLoginWithValidCredentials" computerName="DESKTOP-NK3B8B0" duration="00:00:01.9689371" startTime="2025-09-05T12:47:27.0529837+01:00" endTime="2025-09-05T12:47:29.3031974+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c10e2980-e73b-424c-95bb-4a1959314e9e">
       <Output>
         <StdOut>-&gt; Loading plugin D:\Repos\BDDAutomationFramework\AppSpecFlow\bin\Debug\net8.0\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll&#xD;
 -&gt; Loading plugin D:\Repos\BDDAutomationFramework\AppSpecFlow\bin\Debug\net8.0\AppSpecFlow.dll&#xD;
 -&gt; Using specflow.json&#xD;
 Starting feature: test-0001 Login Functionality&#xD;
-SpecFlow bindings discovered&#xD;
 Starting scenario: test-0001-testing login with valid credentials&#xD;
 Given I am testing "Project1"&#xD;
 Loaded test data for project: Project1&#xD;
--&gt; done: GivenSteps.GivenIAmTesting("Project1") (2.2s)&#xD;
+-&gt; done: GivenSteps.GivenIAmTesting("Project1") (1.7s)&#xD;
 Completed scenario: test-0001-testing login with valid credentials&#xD;
 Completed feature: test-0001 Login Functionality&#xD;
 &#xD;
@@ -23,7 +22,7 @@ Completed feature: test-0001 Login Functionality&#xD;
 &#xD;
 TestContext Messages:&#xD;
 Given I am testing "Project1"&#xD;
--&gt; done: GivenSteps.GivenIAmTesting("Project1") (2.2s)</StdOut>
+-&gt; done: GivenSteps.GivenIAmTesting("Project1") (1.7s)</StdOut>
       </Output>
     </UnitTestResult>
   </Results>
@@ -32,12 +31,12 @@ Given I am testing "Project1"&#xD;
       <TestCategory>
         <TestCategoryItem TestCategory="test-0001" />
       </TestCategory>
-      <Execution id="c71df474-3ad3-44f8-b604-068a122871e6" />
+      <Execution id="c10e2980-e73b-424c-95bb-4a1959314e9e" />
       <TestMethod codeBase="D:\Repos\BDDAutomationFramework\AppSpecFlow\bin\Debug\net8.0\AppSpecFlow.dll" adapterTypeName="executor://mstestadapter/v2" className="AppSpecFlow.Features.Project1.Test_0001LoginFunctionalityFeature" name="Test_0001_TestingLoginWithValidCredentials" />
     </UnitTest>
   </TestDefinitions>
   <TestEntries>
-    <TestEntry testId="d89c1269-6098-5808-490b-3b1dd443a13f" executionId="c71df474-3ad3-44f8-b604-068a122871e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d89c1269-6098-5808-490b-3b1dd443a13f" executionId="c10e2980-e73b-424c-95bb-4a1959314e9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <TestLists>
     <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
@@ -46,11 +45,11 @@ Given I am testing "Project1"&#xD;
   <ResultSummary outcome="Completed">
     <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
     <Output>
-      <StdOut>Starting Microsoft Edge WebDriver 139.0.3405.125 (5d3aeaf5858265d2abfe75156d5fa33dce393873) on port 51831&#xD;
+      <StdOut>Starting Microsoft Edge WebDriver 139.0.3405.125 (5d3aeaf5858265d2abfe75156d5fa33dce393873) on port 52219&#xD;
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver&#xD;
 Only local connections are allowed.&#xD;
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.&#xD;
-msedgedriver was started successfully on port 51831.&#xD;
+msedgedriver was started successfully on port 52219.&#xD;
 </StdOut>
     </Output>
   </ResultSummary>
