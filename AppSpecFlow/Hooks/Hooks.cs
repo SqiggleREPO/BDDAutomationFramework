@@ -20,17 +20,42 @@ namespace AppSpecFlow.Hooks
         {
             if (scenarioContext.TestError != null)
             {
-                // Take screenshot on failure
-                var screenshot = ((ITakesScreenshot)DriverManager.Driver).GetScreenshot();
-                var fileName = $"Error_{scenarioContext.ScenarioInfo.Title}_{DateTime.Now:yyyyMMddHHmmss}";
-                var path = Path.Combine("TestResults", $"{fileName}.png");
-                screenshot.SaveAsFile(path);
-                
-                Console.WriteLine($"Test failed. Screenshot saved: {path}");
+                try
+                {
+                    // Take screenshot on failure
+                    var screenshot = ((ITakesScreenshot)DriverManager.Driver).GetScreenshot();
+                    
+                    // Clean up scenario title for file name (remove invalid characters)
+                    var cleanTitle = string.Join("_", scenarioContext.ScenarioInfo.Title.Split(Path.GetInvalidFileNameChars()));
+                    var fileName = $"Error_{cleanTitle}_{DateTime.Now:yyyyMMddHHmmss}";
+                    
+                    // Ensure TestResults directory exists
+                    var testResultsDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "TestResults");
+                    if (!Directory.Exists(testResultsDir))
+                    {
+                        Directory.CreateDirectory(testResultsDir);
+                    }
+                    
+                    var path = Path.Combine(testResultsDir, $"{fileName}.png");
+                    screenshot.SaveAsFile(path);
+                    
+                    Console.WriteLine($"Test failed. Screenshot saved: {path}");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Failed to save screenshot: {ex.Message}");
+                }
             }
 
             // Clean up driver
-            DriverManager.CloseDriver();
+            try
+            {
+                DriverManager.CloseDriver();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error closing driver: {ex.Message}");
+            }
             
             Console.WriteLine($"Completed scenario: {scenarioContext.ScenarioInfo.Title}");
         }

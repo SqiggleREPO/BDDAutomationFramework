@@ -4,6 +4,7 @@ using Core.Drivers;
 using AppTargets.Forms;
 using System;
 using System.Reflection;
+using System.Threading;
 
 namespace Generic.Steps
 {
@@ -34,27 +35,41 @@ namespace Generic.Steps
             }
         }
 
-        [When(@"I enter ""(.*)"" into ""(.*)"" field")]
-        public void WhenIEnterIntoField(string text, string fieldName)
+        [When(@"I enter ""(.*)"" in textbox ""(.*)""")]
+        public void WhenIEnterInTextbox(string text, string textboxName)
         {
             var currentPage = GetCurrentPage();
-            if (currentPage.Elements.ContainsKey(fieldName.ToLower()))
+            if (currentPage.Elements.ContainsKey(textboxName.ToLower()))
             {
-                var locator = currentPage.Elements[fieldName.ToLower()];
+                var locator = currentPage.Elements[textboxName.ToLower()];
                 _stepHelpers.EnterText(locator, text);
             }
         }
 
-        [When(@"I wait for ""(.*)"" seconds")]
-        public void WhenIWaitForSeconds(int seconds)
+        [When(@"I wait for ""([^""]*)"" seconds")]
+        public void WhenIWaitForSeconds(string secondsText)
         {
-            System.Threading.Thread.Sleep(seconds * 1000);
+            var seconds = int.Parse(secondsText);
+            seconds *= 1000;
+            Thread.Sleep(seconds);
+        }
+
+
+        [When(@"I click button ""(.*)""")]
+        public void WhenIClickButton(string buttonName)
+        {
+            var currentPage = GetCurrentPage();
+            if (currentPage.Elements.ContainsKey(buttonName.ToLower()))
+            {
+                var locator = currentPage.Elements[buttonName.ToLower()];
+                _stepHelpers.ClickElement(locator);
+            }
         }
 
         private Core.FormBase GetCurrentPage()
         {
-            var pageName = _scenarioContext.ContainsKey("CurrentPage") 
-                ? _scenarioContext["CurrentPage"].ToString() 
+            var pageName = _scenarioContext.ContainsKey("CurrentPage")
+                ? _scenarioContext["CurrentPage"].ToString()
                 : "FirstPage";
 
             var pageType = Assembly.Load("AppTargets")
