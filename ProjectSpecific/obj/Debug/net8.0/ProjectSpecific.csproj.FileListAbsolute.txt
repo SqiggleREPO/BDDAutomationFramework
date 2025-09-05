@@ -11,6 +11,7 @@ D:\Repos\BDDAutomationFramework\ProjectSpecific\obj\Debug\net8.0\ProjectSpecific
 D:\Repos\BDDAutomationFramework\ProjectSpecific\obj\Debug\net8.0\ProjectSpecific.AssemblyInfoInputs.cache
 D:\Repos\BDDAutomationFramework\ProjectSpecific\obj\Debug\net8.0\ProjectSpecific.AssemblyInfo.cs
 D:\Repos\BDDAutomationFramework\ProjectSpecific\obj\Debug\net8.0\ProjectSpecific.csproj.CoreCompileInputs.cache
+D:\Repos\BDDAutomationFramework\ProjectSpecific\obj\Debug\net8.0\ProjectSpecific.sourcelink.json
 D:\Repos\BDDAutomationFramework\ProjectSpecific\obj\Debug\net8.0\ProjectS.2E03E99D.Up2Date
 D:\Repos\BDDAutomationFramework\ProjectSpecific\obj\Debug\net8.0\ProjectSpecific.dll
 D:\Repos\BDDAutomationFramework\ProjectSpecific\obj\Debug\net8.0\refint\ProjectSpecific.dll

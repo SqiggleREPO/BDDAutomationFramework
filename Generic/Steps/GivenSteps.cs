@@ -30,7 +30,7 @@ namespace Generic.Steps
             // Initialize driver if not already done
             if (DriverManager.Driver == null)
             {
-                DriverManager.InitializeDriver("chrome");
+                DriverManager.InitializeDriver("edge");
             }
 
             Console.WriteLine($"Loaded test data for project: {projectName}");

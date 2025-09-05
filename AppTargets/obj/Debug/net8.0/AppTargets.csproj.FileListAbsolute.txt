@@ -11,6 +11,7 @@ D:\Repos\BDDAutomationFramework\AppTargets\obj\Debug\net8.0\AppTargets.Generated
 D:\Repos\BDDAutomationFramework\AppTargets\obj\Debug\net8.0\AppTargets.AssemblyInfoInputs.cache
 D:\Repos\BDDAutomationFramework\AppTargets\obj\Debug\net8.0\AppTargets.AssemblyInfo.cs
 D:\Repos\BDDAutomationFramework\AppTargets\obj\Debug\net8.0\AppTargets.csproj.CoreCompileInputs.cache
+D:\Repos\BDDAutomationFramework\AppTargets\obj\Debug\net8.0\AppTargets.sourcelink.json
 D:\Repos\BDDAutomationFramework\AppTargets\obj\Debug\net8.0\AppTargets.csproj.Up2Date
 D:\Repos\BDDAutomationFramework\AppTargets\obj\Debug\net8.0\AppTargets.dll
 D:\Repos\BDDAutomationFramework\AppTargets\obj\Debug\net8.0\refint\AppTargets.dll

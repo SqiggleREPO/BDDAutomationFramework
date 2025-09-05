@@ -14,7 +14,7 @@ namespace Core.Drivers
 
         public static IWebDriver Driver => _driver;
 
-        public static IWebDriver InitializeDriver(string browserType = "chrome")
+        public static IWebDriver InitializeDriver(string browserType = "edge")
         {
             if (_driver != null)
                 return _driver;

@@ -7,6 +7,7 @@ D:\Repos\BDDAutomationFramework\AppSpecFlow\bin\Debug\net8.0\selenium-manager\wi
 D:\Repos\BDDAutomationFramework\AppSpecFlow\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 D:\Repos\BDDAutomationFramework\AppSpecFlow\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 D:\Repos\BDDAutomationFramework\AppSpecFlow\bin\Debug\net8.0\Microsoft.TestPlatform.AdapterUtilities.dll
+D:\Repos\BDDAutomationFramework\AppSpecFlow\bin\Debug\net8.0\specflow.json
 D:\Repos\BDDAutomationFramework\AppSpecFlow\bin\Debug\net8.0\AppSpecFlow.deps.json
 D:\Repos\BDDAutomationFramework\AppSpecFlow\bin\Debug\net8.0\AppSpecFlow.runtimeconfig.json
 D:\Repos\BDDAutomationFramework\AppSpecFlow\bin\Debug\net8.0\AppSpecFlow.dll
@@ -135,6 +136,7 @@ D:\Repos\BDDAutomationFramework\AppSpecFlow\obj\Debug\net8.0\AppSpecFlow.Generat
 D:\Repos\BDDAutomationFramework\AppSpecFlow\obj\Debug\net8.0\AppSpecFlow.AssemblyInfoInputs.cache
 D:\Repos\BDDAutomationFramework\AppSpecFlow\obj\Debug\net8.0\AppSpecFlow.AssemblyInfo.cs
 D:\Repos\BDDAutomationFramework\AppSpecFlow\obj\Debug\net8.0\AppSpecFlow.csproj.CoreCompileInputs.cache
+D:\Repos\BDDAutomationFramework\AppSpecFlow\obj\Debug\net8.0\AppSpecFlow.sourcelink.json
 D:\Repos\BDDAutomationFramework\AppSpecFlow\obj\Debug\net8.0\AppSpecF.DFCC5ACC.Up2Date
 D:\Repos\BDDAutomationFramework\AppSpecFlow\obj\Debug\net8.0\AppSpecFlow.dll
 D:\Repos\BDDAutomationFramework\AppSpecFlow\obj\Debug\net8.0\refint\AppSpecFlow.dll
