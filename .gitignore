@@ -11,6 +11,8 @@
 # Assembly info and cache files
 **/*.AssemblyInfo.cs
 **/*.cache
+**/AssemblyInfo.cs
+**/AssemblyInfoInputs.cache
 
 # Debug symbols
 **/*.pdb
@@ -27,4 +29,13 @@
 *.user
 *.suo
 *.userosscache
-*.sln.docstates 
+*.sln.docstates
+
+# Project specific cache files
+**/*.csproj.AssemblyReference.cache
+
+# Generated files in obj folders
+**/obj/**/*.AssemblyInfo.cs
+**/obj/**/*.AssemblyInfoInputs.cache
+**/obj/**/*.csproj.AssemblyReference.cache
+**/obj/**/*.sourcelink.json
