@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace AppSpecFlow.Features.Project
+namespace AppSpecFlow.Features.Project1
 {
     using TechTalk.SpecFlow;
     using System;
@@ -48,7 +48,7 @@ namespace AppSpecFlow.Features.Project
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "features/project", "test-0001 Login Functionality", null, ProgrammingLanguage.CSharp, featureTags);
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "features/Project1", "test-0001 Login Functionality", null, ProgrammingLanguage.CSharp, featureTags);
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -65,7 +65,7 @@ namespace AppSpecFlow.Features.Project
             if (((testRunner.FeatureContext != null) 
                         && (testRunner.FeatureContext.FeatureInfo.Title != "test-0001 Login Functionality")))
             {
-                global::AppSpecFlow.Features.Project.Test_0001LoginFunctionalityFeature.FeatureSetup(null);
+                global::AppSpecFlow.Features.Project1.Test_0001LoginFunctionalityFeature.FeatureSetup(null);
             }
         }
         

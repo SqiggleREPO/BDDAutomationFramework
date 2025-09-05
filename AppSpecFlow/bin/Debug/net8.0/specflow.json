@@ -1,0 +1,13 @@
+{
+  "bindingCulture": {
+    "name": "en-US"
+  },
+  "stepAssemblies": [
+    {
+      "assembly": "AppSpecFlow"
+    },
+        {
+      "assembly": "Generic"
+    }
+  ]
+}

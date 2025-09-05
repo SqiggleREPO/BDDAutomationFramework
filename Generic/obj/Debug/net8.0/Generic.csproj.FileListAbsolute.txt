@@ -17,6 +17,7 @@ D:\Repos\BDDAutomationFramework\Generic\obj\Debug\net8.0\Generic.GeneratedMSBuil
 D:\Repos\BDDAutomationFramework\Generic\obj\Debug\net8.0\Generic.AssemblyInfoInputs.cache
 D:\Repos\BDDAutomationFramework\Generic\obj\Debug\net8.0\Generic.AssemblyInfo.cs
 D:\Repos\BDDAutomationFramework\Generic\obj\Debug\net8.0\Generic.csproj.CoreCompileInputs.cache
+D:\Repos\BDDAutomationFramework\Generic\obj\Debug\net8.0\Generic.sourcelink.json
 D:\Repos\BDDAutomationFramework\Generic\obj\Debug\net8.0\Generic.csproj.Up2Date
 D:\Repos\BDDAutomationFramework\Generic\obj\Debug\net8.0\Generic.dll
 D:\Repos\BDDAutomationFramework\Generic\obj\Debug\net8.0\refint\Generic.dll
