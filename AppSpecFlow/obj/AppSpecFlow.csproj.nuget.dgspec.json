@@ -1,0 +1,401 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Repos\\BDDAutomationFramework\\AppSpecFlow\\AppSpecFlow.csproj": {}
+  },
+  "projects": {
+    "D:\\Repos\\BDDAutomationFramework\\AppSpecFlow\\AppSpecFlow.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\BDDAutomationFramework\\AppSpecFlow\\AppSpecFlow.csproj",
+        "projectName": "AppSpecFlow",
+        "projectPath": "D:\\Repos\\BDDAutomationFramework\\AppSpecFlow\\AppSpecFlow.csproj",
+        "packagesPath": "C:\\Users\\marcc\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\BDDAutomationFramework\\AppSpecFlow\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marcc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Repos\\BDDAutomationFramework\\AppTargets\\AppTargets.csproj": {
+                "projectPath": "D:\\Repos\\BDDAutomationFramework\\AppTargets\\AppTargets.csproj"
+              },
+              "D:\\Repos\\BDDAutomationFramework\\Core\\Core.csproj": {
+                "projectPath": "D:\\Repos\\BDDAutomationFramework\\Core\\Core.csproj"
+              },
+              "D:\\Repos\\BDDAutomationFramework\\Generic\\Generic.csproj": {
+                "projectPath": "D:\\Repos\\BDDAutomationFramework\\Generic\\Generic.csproj"
+              },
+              "D:\\Repos\\BDDAutomationFramework\\ProjectSpecific\\ProjectSpecific.csproj": {
+                "projectPath": "D:\\Repos\\BDDAutomationFramework\\ProjectSpecific\\ProjectSpecific.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.16.2, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.16.2, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.MsTest": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repos\\BDDAutomationFramework\\AppTargets\\AppTargets.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\BDDAutomationFramework\\AppTargets\\AppTargets.csproj",
+        "projectName": "AppTargets",
+        "projectPath": "D:\\Repos\\BDDAutomationFramework\\AppTargets\\AppTargets.csproj",
+        "packagesPath": "C:\\Users\\marcc\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\BDDAutomationFramework\\AppTargets\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marcc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Repos\\BDDAutomationFramework\\Core\\Core.csproj": {
+                "projectPath": "D:\\Repos\\BDDAutomationFramework\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.16.2, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.16.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repos\\BDDAutomationFramework\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\BDDAutomationFramework\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "D:\\Repos\\BDDAutomationFramework\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\marcc\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\BDDAutomationFramework\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marcc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.16.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repos\\BDDAutomationFramework\\Generic\\Generic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\BDDAutomationFramework\\Generic\\Generic.csproj",
+        "projectName": "Generic",
+        "projectPath": "D:\\Repos\\BDDAutomationFramework\\Generic\\Generic.csproj",
+        "packagesPath": "C:\\Users\\marcc\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\BDDAutomationFramework\\Generic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marcc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Repos\\BDDAutomationFramework\\AppTargets\\AppTargets.csproj": {
+                "projectPath": "D:\\Repos\\BDDAutomationFramework\\AppTargets\\AppTargets.csproj"
+              },
+              "D:\\Repos\\BDDAutomationFramework\\Core\\Core.csproj": {
+                "projectPath": "D:\\Repos\\BDDAutomationFramework\\Core\\Core.csproj"
+              },
+              "D:\\Repos\\BDDAutomationFramework\\ProjectSpecific\\ProjectSpecific.csproj": {
+                "projectPath": "D:\\Repos\\BDDAutomationFramework\\ProjectSpecific\\ProjectSpecific.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.16.2, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Repos\\BDDAutomationFramework\\ProjectSpecific\\ProjectSpecific.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Repos\\BDDAutomationFramework\\ProjectSpecific\\ProjectSpecific.csproj",
+        "projectName": "ProjectSpecific",
+        "projectPath": "D:\\Repos\\BDDAutomationFramework\\ProjectSpecific\\ProjectSpecific.csproj",
+        "packagesPath": "C:\\Users\\marcc\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\BDDAutomationFramework\\ProjectSpecific\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marcc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Repos\\BDDAutomationFramework\\Core\\Core.csproj": {
+                "projectPath": "D:\\Repos\\BDDAutomationFramework\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
